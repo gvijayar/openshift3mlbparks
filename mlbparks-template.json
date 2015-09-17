@@ -2,14 +2,14 @@
    "kind": "Template",
    "apiVersion": "v1",
    "metadata": {
-      "name": "mlbparks",
+      "name": "LillyEapMongo",
       "annotations": {
          "iconClass": "icon-jboss",
-         "description": "Application template for MLB Parks application on EAP 6 & MongoDB built using STI"
+         "description": "Application template for EAP 6 & MongoDB built using STI"
       }
    },
    "labels": {
-      "template": "mlbparks"
+      "template": "LillyEapMongo"
    },
    "parameters": [
       {
@@ -30,7 +30,7 @@
       {
          "description": "Git source URI for application",
          "name": "GIT_URI",
-         "value": "https://github.com/gshipley/openshift3mlbparks.git"
+         "value": "https://github.com/gvijayar/openshift3mlbparks.git"
       },
       {
          "description": "Git branch/tag reference",
