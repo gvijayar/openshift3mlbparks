@@ -2,14 +2,14 @@
    "kind": "Template",
    "apiVersion": "v1",
    "metadata": {
-      "name": "LillyEapMongo",
+      "name": "lillyeapmongo",
       "annotations": {
          "iconClass": "icon-jboss",
          "description": "Application template for EAP 6 & MongoDB built using STI"
       }
    },
    "labels": {
-      "template": "LillyEapMongo"
+      "template": "lillyeapmongo"
    },
    "parameters": [
       {
